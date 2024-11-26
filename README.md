@@ -63,14 +63,14 @@ This system aims to provide stakeholders with actionable insights to address sup
 ## Usage
 ### Run the Preprocessing Notebook:
 - Open SupplierNewsCategorization_Part1.ipynb to clean the raw dataset and perform topic modeling. This notebook includes:
-  -- Text cleaning (removal of special characters and stopwords)
-  -- Tokenization and lemmatization
-  -- Topic modeling using BERT-based embeddings with seed keywords
+  - Text cleaning (removal of special characters and stopwords)
+  - Tokenization and lemmatization
+  - Topic modeling using BERT-based embeddings with seed keywords
 
 ### Deploy the System:
 - Use SupplierNewsCategorization_Deployment.ipynb to simulate the deployment process for real-time categorization. This will:
- -- Categorize new supplier news articles using the preprocessed data.
- -- Store the results, including topic labels and probabilities, in classified_documents_with_topics.csv.
+   - Categorize new supplier news articles using the preprocessed data.
+   - Store the results, including topic labels and probabilities, in classified_documents_with_topics.csv.
 
 ## Future Enhancements
 - Real-Time Web Dashboard: Integrate the system into a web dashboard or app widget for dynamic, real-time categorization of supplier news articles.
